@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: pink;
+}
+
+/*index css*/
+h1{
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+input {
+    margin: 10px;
+}
+
+button{
+    margin: 0 20px;
+    background-color: #FFFF99;
+    font: italic small-caps bold 16px/2 cursive;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+/*Declaimer css*/
+.DeclaimerMainContent{
+    border: black 2px solid;
+    width: 80vw;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+.DeclaimerBtn{
+    margin: 10px;
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+/*timeline css*/
+.timelineContainer{
+    position: relative;
+    /*background: pink;*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+.timeline{
+    font: italic small-caps bold 16px/2 cursive;
+    border: black 3px solid;
+    border-radius: 5px ;
+    background-color: #FFFF99;
+    margin: 10px;
+    color: black;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+
+}
