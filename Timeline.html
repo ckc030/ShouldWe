@@ -7,10 +7,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Timeline</title>
     <link rel="stylesheet" href="style.css">
+    <script src="Function.js"></script>
 </head>
 <body>
     <div class="timelineContainer">
-        <div class="timeline">4月-5月</div>
+        <div class="timeline" onclick="openMayDetail()">4月-5月</div>
+        <div id="mayDetail">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="mySlides fade">
+                    <img src="./pic/cat.jpg" style="width:100px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./pic/cat.jpg" style="width:100px">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./pic/cat.jpg" style="width:100px">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
         <div class="timeline">6月</div>
         <div class="timeline">7月</div>
         <div class="timeline">8月</div>
