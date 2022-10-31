@@ -7,42 +7,344 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Timeline</title>
     <link rel="stylesheet" href="style.css">
-    <script src="Function.js"></script>
+    <script defer src="Function.js"></script>
 </head>
 <body>
-    <div class="timelineContainer">
-        <div class="timeline" onclick="openMayDetail()">4月-5月</div>
-        <div id="mayDetail">
-            <!-- Slideshow container -->
+<div class="timelineContainer">
+    <div class="timeline" onclick="openMayDetail()">4月-5月</div>
+    <div id="mayDetail">
+        <div class="monthlyConclusion">
+            5月份概括
+            <br>
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nisl vel faucibus fringilla. Nullam
+            id nunc aliquet, hendrerit sem et, semper elit. Nullam consectetur vehicula felis ac rhoncus. Nunc
+            elementum, neque quis porta maximus, sem ex dignissim ante, vel condimentum justo lectus quis dolor. Aliquam
+            erat volutpat. Quisque tincidunt, felis vel tincidunt commodo, enim diam ultrices nulla, eu laoreet enim
+            velit ac nulla. Pellentesque ullamcorper maximus dolor, ultrices fermentum turpis facilisis at. Aenean in
+            libero nisi. Nunc consectetur consectetur nisl at iaculis. Quisque sit amet nisl vitae magna consectetur
+            molestie ut ut ligula. Pellentesque eleifend elit quis tellus pulvinar, eu pellentesque est efficitur.
+            Aenean vel pulvinar mi. Curabitur lectus lacus, consectetur id porttitor nec, dapibus id nibh.
+            <br>
+            万万没想到
             <div class="slideshow-container">
-                <!-- Full-width images with number and caption text -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
                 <div class="mySlides fade">
-                    <img src="./pic/cat.jpg" style="width:100px">
+                    <img onclick="dash()" src="./pic/dash.png">
                 </div>
+                <div id="dashModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>五月七日
+                            <br>
+                            叫外卖送回公司了
+                        </p>
+                    </div>
+                </div>
+
                 <div class="mySlides fade">
-                    <img src="./pic/cat.jpg" style="width:100px">
+                    <img onclick="wedding()" src="./pic/wedding.png">
                 </div>
+                <div id="weddingModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>五月十五日
+                            <br>
+                            伴娘
+                        </p>
+                    </div>
+                </div>
+
                 <div class="mySlides fade">
-                    <img src="./pic/cat.jpg" style="width:100px">
+                    <img onclick="modal3()" src="./pic/wedding.png">
                 </div>
-                <!-- Next and previous buttons -->
+                <div id="3Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>五月20日
+                            <br>
+                            伴娘
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img onclick="modal4()" src="./pic/wedding.png">
+                </div>
+                <div id="4Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>五月25日
+                            <br>
+                            伴娘
+                        </p>
+                    </div>
+                </div>
+
+<!--                <div class="mySlides fade">-->
+<!--                    <img onclick="modal5()" src="./pic/wedding.png">-->
+<!--                </div>-->
+<!--                <div id="5Modal" class="modal">-->
+<!--                    <div class="modal-content">-->
+<!--                        <span class="close"></span>-->
+<!--                        <p>五月30日-->
+<!--                            <br>-->
+<!--                            伴娘-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                </div>-->
+
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
             <br>
-            <!-- The dots/circles -->
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline" onclick="openJuneDetail()">6月</div>
+    <div id="juneDetail">
+        <div class="monthlyConclusion">
+            6月份概括
+            <br>
+            万万没想到
+            <div class="slideshow-container">
+                <a class="prev" onclick="plusSlidesJune(-1)">&#10094;</a>
+
+                <div class="mySlidesJune fade">
+                    <img onclick="cat1()" src="./pic/cat.png">
+                </div>
+                <div id="cat1Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesJune fade">
+                    <img onclick="cat2()" src="./pic/cat.png">
+                </div>
+                <div id="cat2Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesJune fade">
+                    <img onclick="cat3()" src="./pic/cat.png">
+                </div>
+                <div id="cat3Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesJune fade">
+                    <img onclick="cat4()" src="./pic/cat.png">
+                </div>
+                <div id="cat4Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesJune fade">
+                    <img onclick="cat5()" src="./pic/cat.png">
+                </div>
+                <div id="cat5Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <a class="next" onclick="plusSlidesJune(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dotJune" onclick="currentSlideJune(1)"></span>
+                <span class="dotJune" onclick="currentSlideJune(2)"></span>
+                <span class="dotJune" onclick="currentSlideJune(3)"></span>
+                <span class="dotJune" onclick="currentSlideJune(4)"></span>
+                <span class="dotJune" onclick="currentSlideJune(5)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline" onclick="openJulDetail()">7月</div>
+    <div id="julDetail">
+        <div class="monthlyConclusion">
+            7月份概括
+            <br>
+            万万没想到
+            <div class="slideshow-container">
+                <a class="prev" onclick="plusSlidesJul(-1)">&#10094;</a>
+
+                <div class="mySlidesJul fade">
+                    <img onclick="c1()" src="./pic/cat.png">
+                </div>
+                <div id="c1Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesJul fade">
+                    <img onclick="c2()" src="./pic/cat.png">
+                </div>
+                <div id="c2Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesJul fade">
+                    <img onclick="c3()" src="./pic/cat.png">
+                </div>
+                <div id="c3Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesJul fade">
+                    <img onclick="c4()" src="./pic/cat.png">
+                </div>
+                <div id="c4Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesJul fade">
+                    <img onclick="c5()" src="./pic/cat.png">
+                </div>
+                <div id="c5Modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <a class="next" onclick="plusSlidesJul(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dotJul" onclick="currentSlideJul(1)"></span>
+                <span class="dotJul" onclick="currentSlideJul(2)"></span>
+                <span class="dotJul" onclick="currentSlideJul(3)"></span>
+                <span class="dotJul" onclick="currentSlideJul(4)"></span>
+                <span class="dotJul" onclick="currentSlideJul(5)"></span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="timeline" onclick="openAugDetail()">8月</div>
+    <div id="augDetail">
+        <div class="monthlyConclusion">
+            8月份概括
+            <br>
+            万万没想到
+            <div class="slideshow-container">
+                <a class="prev" onclick="plusSlidesAug(-1)">&#10094;</a>
+
+                <div class="mySlidesAug fade">
+                    <img onclick="a1()" src="./pic/cat.png">
+                </div>
+                <div id="a1" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesAug fade">
+                    <img onclick="a2()" src="./pic/cat.png">
+                </div>
+                <div id="a2" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesAug fade">
+                    <img onclick="a3()" src="./pic/cat.png">
+                </div>
+                <div id="a3" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesAug fade">
+                    <img onclick="a4()" src="./pic/cat.png">
+                </div>
+                <div id="a4" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesAug fade">
+                    <img onclick="a5()" src="./pic/cat.png">
+                </div>
+                <div id="a5" class="modal">
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>奶牛猫</p>
+                    </div>
+                </div>
+
+                <a class="next" onclick="plusSlidesAug(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dotAug" onclick="currentSlideAug(1)"></span>
+                <span class="dotAug" onclick="currentSlideAug(2)"></span>
+                <span class="dotAug" onclick="currentSlideAug(3)"></span>
+                <span class="dotAug" onclick="currentSlideAug(4)"></span>
+                <span class="dotAug" onclick="currentSlideAug(5)"></span>
             </div>
         </div>
 
-        <div class="timeline">6月</div>
-        <div class="timeline">7月</div>
-        <div class="timeline">8月</div>
-        <div class="timeline">9月</div>
-        <div class="timeline">10月</div>
     </div>
+
+    <div class="timeline" onclick="openSepDetail()">9月</div>
+    <div id="sepDetail">
+        <div class="monthlyConclusion">
+            9月份概括
+            <br>
+            万万没想到
+
+        </div>
+    </div>
+
+    <div class="timeline" onclick="openOctDetail()">10月</div>
+    <div id="octDetail">
+        <div class="monthlyConclusion">
+            10月份概括
+            <br>
+            万万没想到
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
