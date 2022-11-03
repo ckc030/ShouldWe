@@ -20,8 +20,8 @@ showSlides(slideIndex);
 showSlidesJune(slideIndex);
 showSlidesJul(slideIndex);
 showSlidesAug(slideIndex);
-// showSlidesSep(slideIndex);
-// showSlidesOct(slideIndex);
+showSlidesSep(slideIndex);
+showSlidesOct(slideIndex);
 
 function openMayDetail() {
     const x = document.getElementById("mayDetail");
@@ -622,6 +622,274 @@ function a5() {
         }
     }
 }
-//Sep
-//Oct
+function a6() {
+    const x = document.getElementById("a6");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function a7() {
+    const x = document.getElementById("a7");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
 
+//Sep
+function s1() {
+    const x = document.getElementById("s1");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function s2() {
+    const x = document.getElementById("s2");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function s3() {
+    const x = document.getElementById("s3");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function s4() {
+    const x = document.getElementById("s4");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+
+function s5() {
+    const x = document.getElementById("s5");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+
+//Oct
+function o1() {
+    const x = document.getElementById("o1");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function o2() {
+    const x = document.getElementById("o2");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function o3() {
+    const x = document.getElementById("o3");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function o4() {
+    const x = document.getElementById("o4");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function o5() {
+    const x = document.getElementById("o5");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function o6() {
+    const x = document.getElementById("o6");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
+function o7() {
+    const x = document.getElementById("o7");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}

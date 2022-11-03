@@ -335,6 +335,7 @@ img{
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    overflow-y: scroll;
 }
 
 /* The Close Button */
@@ -361,6 +362,6 @@ img{
     align-items: center;
     border: black 2px solid;
     background: lightblue;
-    height: 900px;
-    overflow-y: scroll;
+    /*height: 900px;*/
+    /*overflow-y: scroll;*/
 }
