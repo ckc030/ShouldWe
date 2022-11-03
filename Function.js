@@ -411,6 +411,25 @@ function cat5() {
         }
     }
 }
+function cat6() {
+    const x = document.getElementById("cat6Modal");
+    const span = document.getElementsByClassName("close")[0];
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        x.style.display = "none";
+    }
+// When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target === x) {
+            x.style.display = "none";
+        }
+    }
+}
 //Jul
 function c1() {
     const x = document.getElementById("c1Modal");
